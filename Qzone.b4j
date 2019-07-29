@@ -1,0 +1,32 @@
+﻿AppType=JavaFX
+Build1=Default,b4j.example
+Group=Default Group
+Library1=jcore
+Library2=jfx
+Library3=jrandomaccessfile
+Library4=json
+Module1=Qzone
+Module2=AWTRIX
+NumberOfFiles=0
+NumberOfLibraries=4
+NumberOfModules=2
+Version=7.51
+@EndOfDesignText@
+
+#Region Project Attributes 
+	#CommandLineArgs:
+	#MergeLibraries: True 
+#End Region
+
+Sub Process_Globals
+	
+End Sub
+
+Sub AppStart (Args() As String)
+	
+End Sub
+
+'Return true to allow the default exceptions handler to handle the uncaught exception.
+Sub Application_Error (Error As Exception, StackTrace As String) As Boolean
+	Return True
+End Sub
